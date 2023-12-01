@@ -58,6 +58,18 @@ h2.titulo span {
     color: #00FF08;
 }
 
+.btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #00FF08;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
 
 /* ESTILO DO CABEÇALHO */
 header {
@@ -191,18 +203,6 @@ section.especialidades .flex {
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
-    border: 0;
-    background-color: #00FF08;
-    font-size: 22px;
-    cursor: pointer;
-    margin: 0 5px;
-    transition: .2s;
-}
-
 /* ESTILO DO PORTFOLIO */
 section.portfolio {
     padding: 80px 4%;
@@ -300,4 +300,54 @@ form .btn-enviar input[type=submit] {
     cursor: pointer;
     transition: .2s;
     text-transform: uppercase;
+}
+
+/* ESTILO DO RODAPÉ */
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff23;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.border {
+    border-bottom: 2px solid #00FF08;
+}
+
+footer .line-footer p i {
+    color: #00FF08;
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    color: #FFF;
+}
+
+footer .line-footer p {
+    padding-top: 20px;
+}
+
+footer .line-footer .center {
+    display: flex;
+    align-items: center;
+}
+
+footer .down{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .line-footer .text-footer-actor {
+    color: #ffffff80;
+    font-style: italic;
+}
+
+footer .line-footer .text-footer-actor span {
+    color: #00FF0880;
 }
