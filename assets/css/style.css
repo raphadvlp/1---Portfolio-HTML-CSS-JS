@@ -139,7 +139,7 @@ header nav.menu-desktop ul li {
 
 .menu-mobile nav ul li a {
     color: #fff;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 300;
     padding: 20px 8%;
     display: block;
@@ -156,7 +156,7 @@ header nav.menu-desktop ul li {
 
 .menu-mobile .btn-fechar i {
     color: #00FF08;
-    font-size: 30px;
+    font-size: 60px;
 }
 
 .overlay-menu {
