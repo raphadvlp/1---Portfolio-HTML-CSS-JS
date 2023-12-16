@@ -509,12 +509,21 @@ footer .line-footer .text-footer-actor span {
 
     .img-port {
         width: 100%;
-        max-width: 360px;
+        /* max-width: 360px; */
         margin: 0 auto;
     }
 
     section.portfolio .flex {
         gap: 60px;
+    }
+
+    /*! FORM */
+    form {
+        width: 100%;
+    }
+
+    form .btn-enviar input[type=submit] {
+        width: 240px;
     }
 
     /*! FOOTER */
@@ -524,6 +533,15 @@ footer .line-footer .text-footer-actor span {
 
     footer .logo-footer {
         text-align: center;
+    }
+
+    footer .logo-footer img{
+        width: 120px;
+        height: 120px;
+    }
+
+    footer .flex {
+        align-items: center;
     }
 
     footer .down{
