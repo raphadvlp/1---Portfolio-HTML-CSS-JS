@@ -9,6 +9,15 @@
     }
 }
 
+@keyframes fa-blink {
+    /* 0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; } */
+    0% { opacity: 0.3; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
 html {
     scroll-behavior: smooth;
   }
@@ -71,6 +80,26 @@ h2.titulo span {
     cursor: pointer;
     margin: 0 5px;
     transition: .2s;
+}
+
+.fa-blink {
+    -webkit-animation: fa-blink .75s linear infinite;
+    -moz-animation: fa-blink .75s linear infinite;
+    -ms-animation: fa-blink .75s linear infinite;
+    -o-animation: fa-blink .75s linear infinite;
+    animation: fa-blink .75s linear infinite;
+  }
+
+  .arrow--top {
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    display: none;
+}
+
+.arrow--top a i {
+    font-size: 50px;
+    color: #00FF08;
 }
 
 

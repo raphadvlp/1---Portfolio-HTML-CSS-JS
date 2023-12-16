@@ -14,13 +14,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <script src="./assets/js/menu.js" defer></script>
+    <script src="./assets/js/arrowTop.js" defer></script>
 
     <title>Portfolio Raphael</title>
 </head>
 <body>
     
 
-    <header>
+    <header id="header">
         <div class="interface" id="interface">
             <div class="logo">
                 <a href="#">
@@ -195,8 +196,16 @@
                 </p>
                 <p class="text-footer-actor">Desenvolvedor - <span>Raphael Rodrigues.</span></p>
             </div><!--line-footer-->
+
+            <div id="arrowtop" class="arrow--top fa-blink" onclick="subir()">
+                <a href="#header">
+                    <i class="bi bi-arrow-up-circle"></i>
+                </a>
+            </div>
+
         </div><!--interface---->
     </footer><!--footer-->
+    
 
 </body>
 </html>
