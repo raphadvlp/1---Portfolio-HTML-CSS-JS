@@ -1,4 +1,4 @@
-/* ANIMAÇÕES */
+/*! ANIMAÇÕES */
 @keyframes flutuar {
     0% {
         top: 0;
@@ -10,7 +10,7 @@
 }
 
 
-/* ESTILO GERAL */
+/*! ESTILO GERAL */
 * {
     margin: 0;
     padding: 0;
@@ -71,7 +71,7 @@ h2.titulo span {
 }
 
 
-/* ESTILO DO CABEÇALHO */
+/*! ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
 }
@@ -103,7 +103,7 @@ header nav ul li {
     padding: 0 40px;
 }
 
-/* ESTILO DO TOPO DO SITE */
+/*! ESTILO DO TOPO DO SITE */
 section.topo-do-site {
     padding: 40px 4%;
 }
@@ -137,7 +137,7 @@ section.topo-do-site .flex {
     height: 465px;
 }
 
-/* ESTILO DAS ESPECIALIDADES */
+/*! ESTILO DAS ESPECIALIDADES */
 section.especialidades {
     padding: 40px 4%;
 }
@@ -169,7 +169,7 @@ section.especialidades .flex {
     margin: 15px 0;
 }
 
-/* ESTILO DO SOBRE */
+/*! ESTILO DO SOBRE */
 .sobre .interface {
     padding: 80px 4%;
 }
@@ -203,7 +203,7 @@ section.especialidades .flex {
     text-align: justify;
 }
 
-/* ESTILO DO PORTFOLIO */
+/*! ESTILO DO PORTFOLIO */
 section.portfolio {
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px #ffffff23;
@@ -251,7 +251,7 @@ section.portfolio .flex {
     opacity: 1;
 }
 
-/* ESTILO DO FORMULARIO */
+/*! ESTILO DO FORMULARIO */
 section.formulario {
     padding: 80px 4%;
 }
@@ -277,8 +277,8 @@ form input, form textarea {
     font-size: 18px;
 }
 
-/* Forma de aplicar cor no placeholder */
-/* form input::placeholder {
+/*! Forma de aplicar cor no placeholder */
+/*! form input::placeholder {
     color: #00FF08;
 } */
 
@@ -302,7 +302,7 @@ form .btn-enviar input[type=submit] {
     text-transform: uppercase;
 }
 
-/* ESTILO DO RODAPÉ */
+/*! ESTILO DO RODAPÉ */
 footer {
     padding: 40px 4%;
     box-shadow: 0 0 40px 10px #ffffff23;
@@ -350,4 +350,101 @@ footer .line-footer .text-footer-actor {
 
 footer .line-footer .text-footer-actor span {
     color: #00FF0880;
+}
+
+
+@media screen and (max-width: 1020px) {
+    /*! CLASSES GERAIS */
+    .flex {
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    h2.titulo {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+
+    /*! CABEÇALHO */
+    .menu-desktop, .btn-contato {
+        display: none;
+    }
+
+    /*! TOPO DO SITE */
+    header {
+        padding: 5px 4%;
+    }
+
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
+
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+    .topo-do-site h1 {
+        font-size: 30px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+        height: 50%;
+    }
+
+    /*! ESTILO DAS ESPECIALIDADES */
+    section.especialidades {
+        padding: 40px 8%;
+    }
+    
+    /*! ESTILO DO SOBRE */
+    .sobre .interface {
+        padding: 80px 8%;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+    }
+    
+    .img-sobre img {
+        width: 100%;
+    }
+
+    /*! ESTILO DO PORTFOLIO */
+    section.portfolio {
+        padding: 80px 8%;
+    }
+
+    .img-port {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    section.portfolio .flex {
+        gap: 60px;
+    }
+
+    /*! FOOTER */
+    footer .line-footer .center {
+        justify-content: center;
+    }
+
+    footer .logo-footer {
+        text-align: center;
+    }
+
+    footer .down{
+        flex-direction: column;
+        text-align: center;
+    }
 }
