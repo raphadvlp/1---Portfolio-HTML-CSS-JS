@@ -577,4 +577,8 @@ footer .line-footer .text-footer-actor span {
         flex-direction: column;
         text-align: center;
     }
+
+    .arrow--top a i {
+        font-size: 80px;
+    }
 }
