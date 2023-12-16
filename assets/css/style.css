@@ -109,7 +109,7 @@ header nav.menu-desktop ul li {
 /*! ESTILO DO MENU MOBILE */
 .btn-abrir-menu i{
     color: #00FF08;
-    font-size: 40px;
+    font-size: 80px;
     display: none;
 }
 
@@ -446,6 +446,11 @@ footer .line-footer .text-footer-actor span {
         display: none;
     }
 
+    .interface .logo a img {
+        width: 150px;
+        height: 150px;
+    }
+
     /*! TOPO DO SITE */
     header {
         padding: 5px 4%;
@@ -485,6 +490,12 @@ footer .line-footer .text-footer-actor span {
 
     .btn-social {
         text-align: center;
+    }
+
+    .btn-social button {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
     }
     
     .img-sobre img {
