@@ -110,6 +110,7 @@ header nav.menu-desktop ul li {
 .btn-abrir-menu i{
     color: #00FF08;
     font-size: 40px;
+    display: none;
 }
 
 .menu-mobile {
@@ -434,6 +435,11 @@ footer .line-footer .text-footer-actor span {
         line-height: 30px;
     }
 
+    /*! MENU MOBILE */
+
+    .btn-abrir-menu i{
+        display: block;
+    }
 
     /*! CABEÇALHO */
     .menu-desktop, .btn-contato {
