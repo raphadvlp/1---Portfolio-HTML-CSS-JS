@@ -56,6 +56,18 @@ body {
     margin-bottom: 20px;
 }
 
+.btn-contato-top button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00FF08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+
 button:hover, form .btn-enviar input[type=submit]:hover {
     box-shadow: 0px 0px 8px #00ff08;
     transform: scale(1.05);
@@ -498,7 +510,7 @@ footer .line-footer .text-footer-actor span {
     }
 
     /*! CABEÇALHO */
-    .menu-desktop, .btn-contato {
+    .menu-desktop, .btn-contato, .btn-contato-top {
         display: none;
     }
 
