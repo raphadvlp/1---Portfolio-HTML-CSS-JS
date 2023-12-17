@@ -607,5 +607,6 @@ footer .line-footer .text-footer-actor span {
 
     .arrow--top a i {
         font-size: 80px;
+        z-index: 99999;
     }
 }
