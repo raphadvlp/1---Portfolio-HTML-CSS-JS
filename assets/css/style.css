@@ -53,6 +53,7 @@ body {
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
+    margin-bottom: 20px;
 }
 
 button:hover, form .btn-enviar input[type=submit]:hover {
@@ -231,6 +232,7 @@ section.topo-do-site .flex {
     animation: flutuar 2s ease-in-out infinite alternate;
     width: 465px;
     height: 465px;
+    border-radius: 10%;
 }
 
 /*! ESTILO DAS ESPECIALIDADES */
@@ -346,6 +348,31 @@ section.portfolio .flex {
 .overlay:hover {
     opacity: 1;
 }
+
+.desc-title {
+    background-color: #00FF08;
+    color: #000000ce;
+}
+
+.desc-tec img {
+    width: 50px;
+    height: 50px;
+}
+
+.desc-title, .desc-tec {
+    display: flex;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 5px 4%;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .desc-tec img.js {
+    width: 30px;
+    height: 30px;
+} */
 
 /*! ESTILO DO FORMULARIO */
 section.formulario {
